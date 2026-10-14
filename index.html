@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="stylesheet" href="/styles.css">
+
     <link
       rel="icon"
       type="image/png"
@@ -11,40 +13,107 @@
       href="./images/favicon-32x32.png"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+
     <title>Frontend Mentor | Social proof section</title>
 
   </head>
   <body>
-    10,000+ of our users love our products.
 
-    We only provide great products combined with excellent customer service.
-    See what our satisfied customers are saying about our services.
-    
-    Rated 5 Stars in Reviews
-    Rated 5 Stars in Report Guru
-    Rated 5 Stars in BestTech
-    
-    Colton Smith 
-    Verified Buyer
-    "We needed the same printed design as the one we had ordered a week prior.
-    Not only did they find the original order, but we also received it in time.
-    Excellent!"
-    
-    Irene Roberts 
-    Verified Buyer
-    "Customer service is always excellent and very quick turn around. Completely
-    delighted with the simplicity of the purchase and the speed of delivery."
-    
-    Anne Wallace 
-    Verified Buyer
-    "Put an order with this company and can only praise them for the very high
-    standard. Will definitely use them again and recommend them to everyone!"
+    <section id="reviews-home">
+      <div id="text-stars">
+        <div class="reviews-text">
+          <h2>10,000+ of our users love our products.</h2>
+          <p>We only provide great products combined with excellent customer service.
+          See what our satisfied customers are saying about our   services.</p>
+        </div>
+        
+        <div class="reviews-stars">
+
+          <div class="review-valoration">
+            <div class="Stars" id="firsts-stars">
+              <img src="/images/icon-star.svg" alt="estrella">
+              <img src="/images/icon-star.svg" alt="estrella">
+              <img src="/images/icon-star.svg" alt="estrella">
+              <img src="/images/icon-star.svg" alt="estrella">
+              <img src="/images/icon-star.svg" alt="estrella">
+            </div>
+            <h3>Rated 5 Stars in Reviews</h3>
+          </div>
+          <div class="review-valoration" id="second-stars">
+            <div class="Stars">
+              <img src="/images/icon-star.svg" alt="estrella">
+              <img src="/images/icon-star.svg" alt="estrella">
+              <img src="/images/icon-star.svg" alt="estrella">
+              <img src="/images/icon-star.svg" alt="estrella">
+              <img src="/images/icon-star.svg" alt="estrella">
+            </div>
+            <h3>Rated 5 Stars in Report Guru</h3>
+          </div>
+          <div class="review-valoration" id="third-stars">
+            <div class="Stars">
+              <img src="/images/icon-star.svg" alt="estrella">
+              <img src="/images/icon-star.svg" alt="estrella">
+              <img src="/images/icon-star.svg" alt="estrella">
+              <img src="/images/icon-star.svg" alt="estrella">
+              <img src="/images/icon-star.svg" alt="estrella">
+            </div>
+            <h3>Rated 5 Stars in BestTech</h3>
+          </div>
+        </div>
+      </div>
+
+        <div class="reviews-box">
+
+          <article class="review-card">
+            <div class="pfp-text">
+              <img src="/images/image-colton.jpg" alt="profile pic colton">
+              <div class="name-data">
+                <h3>Colton Smith</h3>
+                <strong>Verified Buyer</strong>
+              </div>
+            </div>
+            <blockquote>"We needed the same printed design as the one we had ordered a week prior.
+            Not only did they find the original order, but we also received it in time.
+            Excellent!"</blockquote>
+          </article>
+
+          <article class="review-card">
+            <div class="pfp-text">
+              <img src="/images/image-irene.jpg" alt="profile pic irene">
+              <div class="name-data">
+                <h3>Irene Roberts</h3>
+                <strong>Verified Buyer</strong>
+              </div>
+            </div>
+            <blockquote>"Customer service is always excellent and very quick turn around. Completely
+            delighted with the simplicity of the purchase and the speed of delivery."</blockquote>
+          </article>
+
+          <article class="review-card">
+            <div class="pfp-text">
+              <img src="/images/image-anne.jpg" alt="profile pic anne">
+              <div class="name-data">
+                <h3>Anne Wallace</h3>
+                <strong>Verified Buyer</strong>
+              </div>
+            </div>
+            <blockquote>"Put an order with this company and can only praise them for the very high
+            standard. Will definitely use them again and recommend  them to everyone!"</blockquote>
+          </article>
+
+        </div>
+
+    </section>
 
     <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="https://github.com/Carlos-Pedeflous">Pedeflous Carlos</a>.
     </footer>
+
   </body>
 </html>
